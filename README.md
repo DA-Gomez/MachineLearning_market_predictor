@@ -8,10 +8,13 @@ I will use the yahoo finance api to import market data
 I will predict if the price will go up or down tomorrow not the actual price
 
 ``pip install yfinance``
+
 ``pip install matplotlib``
-``pip install scikit-learn`` model used
+
+``pip install scikit-learn`` (model used)
 
 https://www.geeksforgeeks.org/how-to-import-yfinance-as-yf-in-python/ 
+
 https://ranaroussi.github.io/yfinance/index.html 
 
 ## Model Info

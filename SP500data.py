@@ -1,4 +1,5 @@
 import yfinance as yf #yahoo finance api
+import model as model
 import matplotlib.pyplot as plt 
 
 sp500 = yf.Ticker("^GSPC") #ticker class (downloads price history for the GSPC symbol)
@@ -17,4 +18,6 @@ sp500["Tomorrow"] = sp500["Close"].shift(-1) #shifts the current price to yester
 
 sp500["Target"] = (sp500["Tomorrow"] > sp500["Close"]).astype(int)#1 when price went up, 0 when price went down
 
-sp500 = sp500.loc["1990-01-01":].copy() #without the .copy well get an error (were making two dataframes)
+sp500 = sp500.loc["1970-01-01":].copy() #without the .copy well get an error (were making two dataframes)
+
+model.predict(sp500)
