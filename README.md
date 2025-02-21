@@ -33,12 +33,14 @@ This model is also for the long term as of now.
 
 - Add more scope, use monthly, weekly, hourly data
 
-Some of my future steps is to elevate the bot to not only indeces but stocks like TSLA or NVDA. 
-Not only that but making it reliable for both long term investments and short term.
-
 Maybe Ill be able to use this bot to trade futures and options.
 
 Some other thing I would like to do is track nancy pelosi portfolio and see the success rate 
+
+Feb 2025
+    Ive implemented stocks. We dont take into account the post market which is fine unless we are talkinga bout earnings. The next step foward is to implement earnings.
+
+    Another next step is to disregard economic crashes
 
 ### References
 
